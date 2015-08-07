@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void printHelloWorld();
+void printHelloWorld(int count);
 
 int main(int argc, char *argv) {
   cout << "Hello world!" << endl;
@@ -18,6 +18,8 @@ int main(int argc, char *argv) {
   return 0;
 }
 
-void printHelloWorld() {
-  cout << "Hello World!" << endl;
+void printHelloWorld(int count) {
+  for (int i = 0; i < count; i++) {
+    cout << "Hello World!" << endl;
+  }
 }
