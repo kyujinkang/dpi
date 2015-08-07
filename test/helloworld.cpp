@@ -2,6 +2,8 @@
 
 using namespace std;
 
+void printHelloWorld();
+
 int main(int argc, char *argv) {
   cout << "Hello world!" << endl;
 
@@ -11,5 +13,11 @@ int main(int argc, char *argv) {
 	  cout << "Hello world[" << i << "]!!" << endl;
   }
   
+  printHelloWorld();
+  
   return 0;
+}
+
+void printHelloWorld() {
+  cout << "Hello World!" << endl;
 }
