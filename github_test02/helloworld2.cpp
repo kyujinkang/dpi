@@ -13,7 +13,7 @@ int main(int argc, char *argv) {
 
 	cout << "Hello world 2 !" << endl;
 
-	repeat(10);
+	repeat(15);
 
 	return 0;
 }
