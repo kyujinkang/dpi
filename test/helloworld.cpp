@@ -13,7 +13,7 @@ int main(int argc, char *argv) {
 	  cout << "Hello world[" << i << "]!!" << endl;
   }
   
-  printHelloWorld();
+  printHelloWorld(3);
   
   return 0;
 }
