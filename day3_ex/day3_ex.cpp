@@ -2,6 +2,8 @@
 
 using namespace std;
 
+#if 0
+
 void selectionSort(int base, int *input, int length);
 int findMin(int base, int target, int *input, int length);
 
@@ -50,4 +52,33 @@ int findMin(int base, int target, int *input, int length) {
 	minIndex = findMin(minIndex, target + 1, input, length);
 
 	return minIndex;
+}
+
+#endif
+
+
+int main(void) {
+	int line[10] = { -1, 3, -9, 6, 7, -6, 1, 5, 4, -2 };
+	int i = 0, j = 0;
+	int c = 0;
+	int sum = -1;
+
+	for (i = 0; i < (1 << 10); i++) {
+		for (j = 0; j < 10; j++) {
+			if (i & (1 << j)) {
+				sum += line[j];
+			}
+		}
+		if (sum == 0) {
+			for (j = 0; j < 10; j++) {
+				if (i & (1 << j)) {
+					cout << line[j] << ' ';
+				}
+			}
+			cout << ':' << sum << endl;
+		}
+		sum = 0;
+	}
+
+	return 0;
 }
