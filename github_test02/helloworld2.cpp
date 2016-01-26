@@ -36,6 +36,10 @@ void printtest() {
 	cout << "test" << endl;
 }
 
+void printtest2() {
+	cout << "test2" << endl;
+}
+
 int main(int argc, char *argv) {
 	cout << "Hello world!" << endl;
 
