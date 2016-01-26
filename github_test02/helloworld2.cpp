@@ -16,6 +16,10 @@ void sayHello() {
 	cout << "Say Hello !!!" << endl;
 }
 
+void printHello() {
+	cout << "Hello world!!!!" << endl;
+}
+
 int main(int argc, char *argv) {
 	cout << "Hello world!" << endl;
 
@@ -24,6 +28,8 @@ int main(int argc, char *argv) {
 	cout << sum(3, 5) << endl;
 
 	repeat(20);
+
+	printHello();
 
 	return 0;
 }
