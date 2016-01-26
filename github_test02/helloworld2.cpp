@@ -8,8 +8,8 @@ void repeat(int n)
 		cout << "Hello world!" << endl;
 }
 
-int sum(int a, int b) {
-	return a + b;
+int sum(int base, int target) {
+	return base + target;
 }
 
 int main(int argc, char *argv) {
