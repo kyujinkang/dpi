@@ -12,6 +12,10 @@ int sum(int base, int target) {
 	return base + target;
 }
 
+void printHello() {
+	cout << "Hello world!!!!" << endl;
+}
+
 int main(int argc, char *argv) {
 	cout << "Hello world!" << endl;
 
@@ -20,6 +24,8 @@ int main(int argc, char *argv) {
 	cout << sum(3, 5) << endl;
 
 	repeat(20);
+
+	printHello();
 
 	return 0;
 }
