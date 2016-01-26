@@ -24,6 +24,10 @@ int sub(int base, int target) {
 	return base - target;
 }
 
+int multiply(int base, int target) {
+	return base * target;
+}
+
 int main(int argc, char *argv) {
 	cout << "Hello world!" << endl;
 
@@ -31,6 +35,7 @@ int main(int argc, char *argv) {
 
 	cout << sum(3, 5) << endl;
 	cout << sub(5, 4) << endl;
+	cout << multiply(10, 3) << endl;
 
 	repeat(20);
 
