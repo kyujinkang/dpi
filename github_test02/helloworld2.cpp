@@ -12,6 +12,10 @@ int sum(int base, int target) {
 	return base + target;
 }
 
+void sayHello() {
+	cout << "Say Hello !!!" << endl;
+}
+
 void printHello() {
 	cout << "Hello world!!!!" << endl;
 }
