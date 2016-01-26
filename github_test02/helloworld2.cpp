@@ -8,12 +8,16 @@ void repeat(int n)
 		cout << "Hello world!" << endl;
 }
 
+int sum(int base, int target) {
+	return base + target;
+}
+
 int main(int argc, char *argv) {
 	cout << "Hello world!" << endl;
 
 	cout << "Hello world 2 !" << endl;
 
-	// task branch
+	cout << sum(3, 5) << endl;
 
 	repeat(20);
 
