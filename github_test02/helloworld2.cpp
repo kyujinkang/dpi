@@ -20,12 +20,17 @@ void printHello() {
 	cout << "Hello world!!!!" << endl;
 }
 
+int sub(int base, int target) {
+	return base - target;
+}
+
 int main(int argc, char *argv) {
 	cout << "Hello world!" << endl;
 
 	cout << "Hello world 2 !" << endl;
 
 	cout << sum(3, 5) << endl;
+	cout << sub(5, 4) << endl;
 
 	repeat(20);
 
