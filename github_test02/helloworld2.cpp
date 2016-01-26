@@ -32,6 +32,10 @@ int div(int base, int target) {
 	return base / target;
 }
 
+void printtest() {
+	cout << "test" << endl;
+}
+
 int main(int argc, char *argv) {
 	cout << "Hello world!" << endl;
 
