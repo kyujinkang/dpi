@@ -15,7 +15,7 @@ int main(int argc, char *argv) {
 
 	// task branch
 
-	repeat(10);
+	repeat(20);
 
 	return 0;
 }
